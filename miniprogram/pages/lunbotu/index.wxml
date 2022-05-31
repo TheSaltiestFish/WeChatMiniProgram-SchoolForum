@@ -1,0 +1,25 @@
+<view class='box'>
+  <import src="/pages/template.wxml" />
+  <template is="myInfo"></template>
+  <!-- <view class='title'>校园热点</view> -->
+  <swiper style="text-align: center;"  indicator-dots="{{indicatorDots}}" current="0" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}">
+    <block  >
+      <swiper-item wx:for="{{background}}" wx:key="{{index}}">
+        <image src="{{item.src}}" bindtap="picclicked{{index}}"></image>
+        
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='waikuang'>
+    <text class='myLeft'>指示点</text>
+    <switch checked='{{indicatorDots}}' bindchange="changeIndicatorDots" />
+  </view>
+  <view class='waikuang'>
+    <text class='myLeft'>自动播放</text>
+    <switch checked="{{autoplay}}" bindchange="changeAutoplay" />
+  </view>
+  <view class='waikuang'>
+    <text class='myLeft'>竖向</text>
+    <switch checked="{{vertical}}" bindchange="changeVertical" />
+  </view>
+</view>

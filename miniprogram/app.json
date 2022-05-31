@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lunbotu/index",
+    "pages/biaobai/biaobai",
+    "pages/mine/mine",
+    "pages/mine/about/about",
+    "pages/news/news",
+    "pages/news1/news1",
+    "pages/news2/news2",
+    "pages/chat/chat",
+    "pages/reply/reply",
+    "pages/mine/myinfo/myinfo"
+  ],
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#00a8f3",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/lunbotu/index",
+        "text": "校园热点",
+        "iconPath": "/images/zuoyeOff.png",
+        "selectedIconPath": "/images/zuoyeOn.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine1.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#003eaf",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

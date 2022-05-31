@@ -1,0 +1,19 @@
+<view class="all">
+  <swiper autoplay="true" interval="5000">
+    <swiper-item>
+      <image src="../../images/title.png"></image>
+    </swiper-item>
+  </swiper>
+  <view class="line">
+    <view class="box1" bindtap="biaobai" >
+      <image src="../../images/heart.png"></image>
+      <view>表白墙</view>
+    </view>
+  </view>
+  <view class="line">
+    <view class="box1" bindtap="chat" >
+      <image src="../../images/chat22.png"></image>
+      <view>发帖子</view>
+    </view>
+  </view>
+</view>

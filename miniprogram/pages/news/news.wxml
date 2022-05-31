@@ -1,0 +1,14 @@
+<!--pages/news/news.wxml-->
+<view class='box'>
+  <import src="/pages/template.wxml" />
+  <template is="myInfo"></template>
+  <view class='title'>4·15！73！祝福您，亲爱的大工！</view>
+  <view class='title' >
+    <image src="../../images/info.jpg" style="width: 298px;height: 546px;"></image>
+  </view>
+  
+  
+  
+  
+  
+</view>

@@ -1,0 +1,6 @@
+/* pages/news/news.wxss */
+
+
+.title{
+  text-align: center;
+}
